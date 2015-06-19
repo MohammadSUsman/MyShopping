@@ -1,0 +1,530 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1C827C2B-7BAA-40EC-B0A0-FA95B5951251}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MyShoppingProject</RootNamespace>
+    <AssemblyName>MyShoppingProject</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AboutUs.aspx" />
+    <Content Include="About_us.aspx" />
+    <Content Include="Admin\EditAndDelete.aspx" />
+    <Content Include="Admin\EditCamera.aspx" />
+    <Content Include="Admin\EditIpod.aspx" />
+    <Content Include="Admin\EditLaptop.aspx" />
+    <Content Include="Admin\EditTablet.aspx" />
+    <Content Include="Admin\Ipod.aspx" />
+    <Content Include="Admin\Manage_Inventory.aspx" />
+    <Content Include="Admin\Mobile.aspx" />
+    <Content Include="Admin\ProductsAdd.aspx" />
+    <Content Include="Admin\Sales.aspx" />
+    <Content Include="Admin\Tablet.aspx" />
+    <Content Include="Admin\ViewCameraSpecification.aspx" />
+    <Content Include="Admin\ViewIpodSpecification.aspx" />
+    <Content Include="Admin\ViewLaptopSpecification.aspx" />
+    <Content Include="Admin\ViewProducts.aspx" />
+    <Content Include="Admin\Camera.aspx" />
+    <Content Include="Admin\ViewTabletSpecification.aspx" />
+    <Content Include="Admin\Update_Inventory.aspx" />
+    <Content Include="App_Data\ShoppingDatabase.mdf" />
+    <Content Include="App_Data\ShoppingDatabase_log.ldf">
+      <DependentUpon>ShoppingDatabase.mdf</DependentUpon>
+    </Content>
+    <Content Include="ContactUs.aspx" />
+    <Content Include="Contact_us.aspx" />
+    <Content Include="css\flexslider.css" />
+    <Content Include="css\jquery.ui.accordion.css" />
+    <Content Include="css\style.css" />
+    <Content Include="Admin\EditMobile.aspx" />
+    <Content Include="FinishedPage.aspx" />
+    <Content Include="FrontPage.aspx" />
+    <Content Include="Admin\ImageEdit.aspx" />
+    <Content Include="Images\Admin.png" />
+    <Content Include="Images\Adminbg.jpg" />
+    <Content Include="Images\Apple MacBook Air Z0NB001QV.jpg" />
+    <Content Include="Images\Apple MacBook Air Z0ND00093.jpg" />
+    <Content Include="Images\Apple MacBook Air Z0ND000K3.jpg" />
+    <Content Include="Images\Apple MacBook Pro ME662.jpg" />
+    <Content Include="Images\Apple MacBook Pro ME664.jpg" />
+    <Content Include="Images\Apple MacBook Pro ME665.jpg" />
+    <Content Include="Images\bg\AddtoCart1.jpg" />
+    <Content Include="Images\bg\box-bg.png" />
+    <Content Include="Images\bg\box-shadow.png" />
+    <Content Include="Images\bg\brand-identity.png" />
+    <Content Include="Images\bg\control-nav.png" />
+    <Content Include="Images\bg\delete.png" />
+    <Content Include="Images\bg\favicon.ico" />
+    <Content Include="Images\bg\graphic-design.png" />
+    <Content Include="Images\bg\left-btn.png" />
+    <Content Include="Images\bg\list-arr.png" />
+    <Content Include="Images\bg\logo.png" />
+    <Content Include="Images\bg\main.png" />
+    <Content Include="Images\bg\more-btn.png" />
+    <Content Include="Images\bg\nav-border.png" />
+    <Content Include="Images\Dell Inspiron 5421-i7.jpg" />
+    <Content Include="Images\Dell Inspiron 5521.jpg" />
+    <Content Include="Images\Dell Inspiron N5421.jpg" />
+    <Content Include="Images\Dell Inspiron N5521.jpg" />
+    <Content Include="Images\Dell Inspiron N7520.jpg" />
+    <Content Include="Images\Dell Latitude E6230.jpg" />
+    <Content Include="Images\Dell Vostro D3550.jpg" />
+    <Content Include="Images\Dell Vostro.jpg" />
+    <Content Include="Images\Dell XPS 12-Carrera Ultra Book.jpg" />
+    <Content Include="Images\Dell XPS 13 Ultrabook Spyder.jpg" />
+    <Content Include="Images\Dell XPS 14 UltraBook.jpg" />
+    <Content Include="Images\HP ENVY 6-1100se.jpg" />
+    <Content Include="Images\HP ENVY M6-1203TU.jpg" />
+    <Content Include="Images\HP ENVY TouchSmart 15-J001tu.jpg" />
+    <Content Include="Images\HP Pavilion G15-B002 Sleekbook.jpg" />
+    <Content Include="Images\HP Pavilion G6-2217TU.jpg" />
+    <Content Include="Images\HP Pavilion G6-2237TU.jpg" />
+    <Content Include="Images\HP Pavilion G6-2287sx.jpg" />
+    <Content Include="Images\HP Pavilion G6-2297se.jpg" />
+    <Content Include="Images\HP Pavilion G6-2299se.jpg" />
+    <Content Include="Images\HP Pavilion G6-2351se.jpg" />
+    <Content Include="Images\HP ProBook 4530s.jpg" />
+    <Content Include="Images\HP Probook 4540s-Dos.jpg" />
+    <Content Include="Images\Hp ProBook 4740s.jpg" />
+    <Content Include="Images\HP ProBook 6470b.jpg" />
+    <Content Include="Images\icons\dribble.png" />
+    <Content Include="Images\icons\facebook.png" />
+    <Content Include="Images\icons\flickr.png" />
+    <Content Include="Images\icons\twitter.png" />
+    <Content Include="Images\Nokia Asha 308.jpg" />
+    <Content Include="Images\Nokia Asha 310.jpg" />
+    <Content Include="Images\Nokia Asha 501.jpg" />
+    <Content Include="Images\Nokia Lumia 920.jpg" />
+    <Content Include="Images\Nokia lumia 925.jpg" />
+    <Content Include="Images\Nokia N8.jpg" />
+    <Content Include="Images\Qmobile Noir A10.jpg" />
+    <Content Include="Images\Qmobile Noir A12.jpg" />
+    <Content Include="Images\Qmobile Noir A20.jpg" />
+    <Content Include="Images\Qmobile Noir A50.jpg" />
+    <Content Include="Images\Qmobile Noir A6.jpg" />
+    <Content Include="Images\Qmobile Noir A600.jpg" />
+    <Content Include="Images\Qmobile Noir A7.jpg" />
+    <Content Include="Images\Qmobile Noir A8.jpg" />
+    <Content Include="Images\Qmobile Noir A9.jpg" />
+    <Content Include="Images\Qmobile Noir A900.jpg" />
+    <Content Include="Images\Qmobile Noir A950.jpg" />
+    <Content Include="Images\Samsung Galaxy Core I8260.jpg" />
+    <Content Include="Images\Samsung Galaxy Grand I9082.jpg" />
+    <Content Include="Images\Samsung Galaxy Nexus.jpg" />
+    <Content Include="Images\Samsung Galaxy Note II.jpg" />
+    <Content Include="Images\Samsung Galaxy S3 I9300.jpg" />
+    <Content Include="Images\Samsung Galaxy S4 Active I9295.jpg" />
+    <Content Include="Images\Samsung Galaxy SL I9003.jpg" />
+    <Content Include="Images\Slider\pic01.jpg" />
+    <Content Include="Images\Slider\pic02.jpg" />
+    <Content Include="Images\Slider\pic03.jpg" />
+    <Content Include="Images\bg\section-bottom.png" />
+    <Content Include="Images\bg\slide-img.png" />
+    <Content Include="Images\bg\slider-arr.png" />
+    <Content Include="Images\bg\slider-btns.png" />
+    <Content Include="Images\bg\slider-shadow.png" />
+    <Content Include="Images\bg\submit-btn.png" />
+    <Content Include="Images\bg\title-ico.png" />
+    <Content Include="Images\bg\top-section.png" />
+    <Content Include="Images\bg\user-interface-design.png" />
+    <Content Include="js\functions.js" />
+    <Content Include="js\jquery-1.7.2.min.js" />
+    <Content Include="js\jquery-ui-1.10.3.custom.js" />
+    <Content Include="js\jquery.flexslider-min.js" />
+    <Content Include="js\modernizr.custom.js" />
+    <Content Include="Admin\Laptop.aspx" />
+    <Content Include="LogInPage.aspx" />
+    <Content Include="Order.aspx" />
+    <Content Include="ProductDetail.aspx" />
+    <Content Include="ProductPage.aspx" />
+    <Content Include="RegistrationForm.aspx" />
+    <Content Include="SearchPage.aspx" />
+    <Content Include="ShoppingCart.aspx" />
+    <Content Include="Admin\ViewMobileSpecification.aspx" />
+    <Content Include="view_history.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutUs.aspx.cs">
+      <DependentUpon>AboutUs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AboutUs.aspx.designer.cs">
+      <DependentUpon>AboutUs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="About_us.aspx.cs">
+      <DependentUpon>About_us.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About_us.aspx.designer.cs">
+      <DependentUpon>About_us.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\EditAndDelete.aspx.cs">
+      <DependentUpon>EditAndDelete.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\EditAndDelete.aspx.designer.cs">
+      <DependentUpon>EditAndDelete.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\EditCamera.aspx.cs">
+      <DependentUpon>EditCamera.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\EditCamera.aspx.designer.cs">
+      <DependentUpon>EditCamera.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\EditIpod.aspx.cs">
+      <DependentUpon>EditIpod.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\EditIpod.aspx.designer.cs">
+      <DependentUpon>EditIpod.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\EditLaptop.aspx.cs">
+      <DependentUpon>EditLaptop.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\EditLaptop.aspx.designer.cs">
+      <DependentUpon>EditLaptop.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\EditTablet.aspx.cs">
+      <DependentUpon>EditTablet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\EditTablet.aspx.designer.cs">
+      <DependentUpon>EditTablet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Ipod.aspx.cs">
+      <DependentUpon>Ipod.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Ipod.aspx.designer.cs">
+      <DependentUpon>Ipod.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Manage_Inventory.aspx.cs">
+      <DependentUpon>Manage_Inventory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Manage_Inventory.aspx.designer.cs">
+      <DependentUpon>Manage_Inventory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Mobile.aspx.cs">
+      <DependentUpon>Mobile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Mobile.aspx.designer.cs">
+      <DependentUpon>Mobile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\ProductsAdd.aspx.cs">
+      <DependentUpon>ProductsAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\ProductsAdd.aspx.designer.cs">
+      <DependentUpon>ProductsAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Sales.aspx.cs">
+      <DependentUpon>Sales.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Sales.aspx.designer.cs">
+      <DependentUpon>Sales.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Site1.Master.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Site1.Master.designer.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Site2.Master.cs">
+      <DependentUpon>Site2.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Site2.Master.designer.cs">
+      <DependentUpon>Site2.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Tablet.aspx.cs">
+      <DependentUpon>Tablet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Tablet.aspx.designer.cs">
+      <DependentUpon>Tablet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\ViewCameraSpecification.aspx.cs">
+      <DependentUpon>ViewCameraSpecification.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\ViewCameraSpecification.aspx.designer.cs">
+      <DependentUpon>ViewCameraSpecification.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\ViewIpodSpecification.aspx.cs">
+      <DependentUpon>ViewIpodSpecification.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\ViewIpodSpecification.aspx.designer.cs">
+      <DependentUpon>ViewIpodSpecification.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\ViewLaptopSpecification.aspx.cs">
+      <DependentUpon>ViewLaptopSpecification.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\ViewLaptopSpecification.aspx.designer.cs">
+      <DependentUpon>ViewLaptopSpecification.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\ViewProducts.aspx.cs">
+      <DependentUpon>ViewProducts.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\ViewProducts.aspx.designer.cs">
+      <DependentUpon>ViewProducts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Camera.aspx.cs">
+      <DependentUpon>Camera.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Camera.aspx.designer.cs">
+      <DependentUpon>Camera.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\ViewTabletSpecification.aspx.cs">
+      <DependentUpon>ViewTabletSpecification.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\ViewTabletSpecification.aspx.designer.cs">
+      <DependentUpon>ViewTabletSpecification.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Update_Inventory.aspx.cs">
+      <DependentUpon>Update_Inventory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Update_Inventory.aspx.designer.cs">
+      <DependentUpon>Update_Inventory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ContactUs.aspx.cs">
+      <DependentUpon>ContactUs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ContactUs.aspx.designer.cs">
+      <DependentUpon>ContactUs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\EditMobile.aspx.cs">
+      <DependentUpon>EditMobile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\EditMobile.aspx.designer.cs">
+      <DependentUpon>EditMobile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contact_us.aspx.cs">
+      <DependentUpon>Contact_us.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contact_us.aspx.designer.cs">
+      <DependentUpon>Contact_us.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FinishedPage.aspx.cs">
+      <DependentUpon>FinishedPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FinishedPage.aspx.designer.cs">
+      <DependentUpon>FinishedPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrontPage.aspx.cs">
+      <DependentUpon>FrontPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrontPage.aspx.designer.cs">
+      <DependentUpon>FrontPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\ImageEdit.aspx.cs">
+      <DependentUpon>ImageEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\ImageEdit.aspx.designer.cs">
+      <DependentUpon>ImageEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Laptop.aspx.cs">
+      <DependentUpon>Laptop.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Laptop.aspx.designer.cs">
+      <DependentUpon>Laptop.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LogInPage.aspx.cs">
+      <DependentUpon>LogInPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LogInPage.aspx.designer.cs">
+      <DependentUpon>LogInPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Order.aspx.cs">
+      <DependentUpon>Order.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Order.aspx.designer.cs">
+      <DependentUpon>Order.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProductDetail.aspx.cs">
+      <DependentUpon>ProductDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProductDetail.aspx.designer.cs">
+      <DependentUpon>ProductDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProductPage.aspx.cs">
+      <DependentUpon>ProductPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProductPage.aspx.designer.cs">
+      <DependentUpon>ProductPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegistrationForm.aspx.cs">
+      <DependentUpon>RegistrationForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RegistrationForm.aspx.designer.cs">
+      <DependentUpon>RegistrationForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SearchPage.aspx.cs">
+      <DependentUpon>SearchPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SearchPage.aspx.designer.cs">
+      <DependentUpon>SearchPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ShoppingCart.aspx.cs">
+      <DependentUpon>ShoppingCart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ShoppingCart.aspx.designer.cs">
+      <DependentUpon>ShoppingCart.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site1.Master.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site1.Master.designer.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Site2.Master.cs">
+      <DependentUpon>Site2.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site2.Master.designer.cs">
+      <DependentUpon>Site2.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Site3.Master.cs">
+      <DependentUpon>Site3.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site3.Master.designer.cs">
+      <DependentUpon>Site3.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\ViewMobileSpecification.aspx.cs">
+      <DependentUpon>ViewMobileSpecification.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\ViewMobileSpecification.aspx.designer.cs">
+      <DependentUpon>ViewMobileSpecification.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="view_history.aspx.cs">
+      <DependentUpon>view_history.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="view_history.aspx.designer.cs">
+      <DependentUpon>view_history.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Site1.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Site2.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Site3.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin\Site1.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin\Site2.Master" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1902</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

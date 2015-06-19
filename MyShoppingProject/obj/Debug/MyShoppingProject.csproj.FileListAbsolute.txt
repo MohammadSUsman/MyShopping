@@ -1,0 +1,45 @@
+c:\users\bilal\documents\visual studio 2010\Projects\MyShoppingProject\MyShoppingProject\bin\MyShoppingProject.dll
+c:\users\bilal\documents\visual studio 2010\Projects\MyShoppingProject\MyShoppingProject\bin\MyShoppingProject.pdb
+c:\users\bilal\documents\visual studio 2010\Projects\MyShoppingProject\MyShoppingProject\obj\Debug\ResolveAssemblyReference.cache
+c:\users\bilal\documents\visual studio 2010\Projects\MyShoppingProject\MyShoppingProject\obj\Debug\MyShoppingProject.dll
+c:\users\bilal\documents\visual studio 2010\Projects\MyShoppingProject\MyShoppingProject\obj\Debug\MyShoppingProject.pdb
+C:\Users\bilal\Desktop\MyShoppingProject\MyShoppingProject\bin\MyShoppingProject.dll
+C:\Users\bilal\Desktop\MyShoppingProject\MyShoppingProject\bin\MyShoppingProject.pdb
+C:\Users\bilal\Desktop\MyShoppingProject\MyShoppingProject\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\bilal\Desktop\MyShoppingProject\MyShoppingProject\obj\Debug\MyShoppingProject.dll
+C:\Users\bilal\Desktop\MyShoppingProject\MyShoppingProject\obj\Debug\MyShoppingProject.pdb
+D:\E-Shop Project\sample project\MyShoppingProject\MyShoppingProject\bin\MyShoppingProject.dll
+D:\E-Shop Project\sample project\MyShoppingProject\MyShoppingProject\bin\MyShoppingProject.pdb
+D:\E-Shop Project\sample project\MyShoppingProject\MyShoppingProject\obj\Debug\ResolveAssemblyReference.cache
+D:\E-Shop Project\sample project\MyShoppingProject\MyShoppingProject\obj\Debug\MyShoppingProject.dll
+D:\E-Shop Project\sample project\MyShoppingProject\MyShoppingProject\obj\Debug\MyShoppingProject.pdb
+C:\Users\Talha\Desktop\MyShoppingProject\MyShoppingProject\bin\MyShoppingProject.dll
+C:\Users\Talha\Desktop\MyShoppingProject\MyShoppingProject\bin\MyShoppingProject.pdb
+C:\Users\Talha\Desktop\MyShoppingProject\MyShoppingProject\obj\Debug\MyShoppingProject.dll
+C:\Users\Talha\Desktop\MyShoppingProject\MyShoppingProject\obj\Debug\MyShoppingProject.pdb
+C:\Users\Talha\Desktop\MyShoppingProject\MyShoppingProject\obj\Debug\MyShoppingProject.csprojResolveAssemblyReference.cache
+C:\Users\Talha\Desktop\-slider\MyShoppingProject\MyShoppingProject\bin\MyShoppingProject.dll
+C:\Users\Talha\Desktop\-slider\MyShoppingProject\MyShoppingProject\bin\MyShoppingProject.pdb
+C:\Users\Talha\Desktop\-slider\MyShoppingProject\MyShoppingProject\obj\Debug\MyShoppingProject.csprojResolveAssemblyReference.cache
+C:\Users\Talha\Desktop\-slider\MyShoppingProject\MyShoppingProject\obj\Debug\MyShoppingProject.dll
+C:\Users\Talha\Desktop\-slider\MyShoppingProject\MyShoppingProject\obj\Debug\MyShoppingProject.pdb
+F:\Games\MyShoppingProject\8.7.2013 - Copy\MyShoppingProject\MyShoppingProject\bin\MyShoppingProject.dll
+F:\Games\MyShoppingProject\8.7.2013 - Copy\MyShoppingProject\MyShoppingProject\bin\MyShoppingProject.pdb
+F:\Games\MyShoppingProject\8.7.2013 - Copy\MyShoppingProject\MyShoppingProject\obj\Debug\MyShoppingProject.csprojResolveAssemblyReference.cache
+F:\Games\MyShoppingProject\8.7.2013 - Copy\MyShoppingProject\MyShoppingProject\obj\Debug\MyShoppingProject.dll
+F:\Games\MyShoppingProject\8.7.2013 - Copy\MyShoppingProject\MyShoppingProject\obj\Debug\MyShoppingProject.pdb
+F:\Games\MyShoppingProject\12.8.2013\MyShoppingProject\MyShoppingProject\bin\MyShoppingProject.dll
+F:\Games\MyShoppingProject\12.8.2013\MyShoppingProject\MyShoppingProject\bin\MyShoppingProject.pdb
+F:\Games\MyShoppingProject\12.8.2013\MyShoppingProject\MyShoppingProject\obj\Debug\MyShoppingProject.csprojResolveAssemblyReference.cache
+F:\Games\MyShoppingProject\12.8.2013\MyShoppingProject\MyShoppingProject\obj\Debug\MyShoppingProject.dll
+F:\Games\MyShoppingProject\12.8.2013\MyShoppingProject\MyShoppingProject\obj\Debug\MyShoppingProject.pdb
+F:\Games\MyShoppingProject\13.8.2013\MyShoppingProject\MyShoppingProject\bin\MyShoppingProject.dll
+F:\Games\MyShoppingProject\13.8.2013\MyShoppingProject\MyShoppingProject\bin\MyShoppingProject.pdb
+F:\Games\MyShoppingProject\13.8.2013\MyShoppingProject\MyShoppingProject\obj\Debug\MyShoppingProject.csprojResolveAssemblyReference.cache
+F:\Games\MyShoppingProject\13.8.2013\MyShoppingProject\MyShoppingProject\obj\Debug\MyShoppingProject.dll
+F:\Games\MyShoppingProject\13.8.2013\MyShoppingProject\MyShoppingProject\obj\Debug\MyShoppingProject.pdb
+F:\Games\MyShoppingProject\-Full final\MyShoppingProject\MyShoppingProject\bin\MyShoppingProject.dll
+F:\Games\MyShoppingProject\-Full final\MyShoppingProject\MyShoppingProject\bin\MyShoppingProject.pdb
+F:\Games\MyShoppingProject\-Full final\MyShoppingProject\MyShoppingProject\obj\Debug\MyShoppingProject.csprojResolveAssemblyReference.cache
+F:\Games\MyShoppingProject\-Full final\MyShoppingProject\MyShoppingProject\obj\Debug\MyShoppingProject.dll
+F:\Games\MyShoppingProject\-Full final\MyShoppingProject\MyShoppingProject\obj\Debug\MyShoppingProject.pdb
